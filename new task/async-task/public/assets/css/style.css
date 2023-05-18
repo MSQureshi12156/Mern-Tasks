@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* My Variables */
+/* site's - purple */
+:root {
+  --site-purple: #754ffe;
+}
+
+/* Utilities */
+
+.border-red {
+  border: 2px solid red;
+}
+.border-green {
+  border: 2px solid green;
+}
+.border-blue {
+  border: 2px solid blue;
+}
+
+.border-zero {
+  border: 0px;
+}
+.border-round {
+  border-radius: 20px;
+}
+
+/* Navbar Styling */
+
+a.dropdown-item:hover {
+  /* color: purple; */
+  background-color: transparent;
+  color: var(--site-purple);
+  font-weight: 500;
+}
+a.three-dots::after {
+  display: none;
+  /* content: ""!important; */
+}
+
+.dots-right > h5 {
+  color: black !important;
+}
+
+.btn-purple {
+  background-color: var(--site-purple);
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+  padding: 0px 4px;
+}
+
+.search-box:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: var(--site-purple);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(117, 79, 254, 0.25);
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  border-radius: 50%;  
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #cdd0d4;
+}
+
+.cover{
+  background-size: cover;  
+}
+
+.bg-purple{
+  background-color: var(--site-purple);
+}

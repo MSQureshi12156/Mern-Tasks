@@ -1,0 +1,11 @@
+.bg-primary{
+    --geeks-bg-opacity: 1;
+   background-color:  #754ffe !important;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    margin: 15px;
+}
